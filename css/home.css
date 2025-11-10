@@ -1,0 +1,95 @@
+
+
+aside {
+    font-size: small;
+    padding: 10px;
+    color: rgb(122, 121, 121);
+    text-decoration: none;
+    width: 100%;
+}
+
+aside a {
+    color: rgb(61, 60, 60);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+aside a:hover {
+     background-color: lightgray;
+    color: white;
+}
+
+aside a:focus {
+    outline: none;
+    background-color: lightgray;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h2 {
+    color: rgb(52, 52, 52);
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+    
+}
+
+h3 {
+    color: rgb(52, 52, 52);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 180px;
+    text-decoration: underline;
+}
+
+P {
+    color: rgb(52, 52, 52);
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgray;
+    
+}
+
+
+ 
+.responsive {
+  width: 100%;
+  height: auto; 
+  width: 900px;
+    border-radius: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  color: white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .responsive {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .responsive {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: small; color: #2f2f2e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color:lightgray;
+    color: rgb(12, 12, 12);
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 5px;
+    width: 100%;
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:not(:checked) + nav {
+display: none;
+}
+
+nav a {
+    color: rgb(15, 15, 15);
+    float: right;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: darkgray;
+    color: white;
+    outline: none;
+}
+
+.active nav {
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    background-color: lightgray;
+    color: rgb(9, 9, 9);
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
